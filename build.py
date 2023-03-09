@@ -26,7 +26,7 @@ compileas = ["m-i.p-s.AXIS",
              "p-p.c-.AXIS",
              "i-5.8-6.AXIS",
              "m-6.8-k.AXIS",
-			 "p-p.c-.AXIS",
+	    "p-p.c-.AXIS",
              "a-r.m-4.AXIS",
              "a-r.m-5.AXIS"]
 
